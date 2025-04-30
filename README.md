@@ -41,6 +41,7 @@ estructura-vite-bootstrap/
 │   │       └── home/        # Imágenes específicas de vistas
 │   ├── components/
 │   │   ├── partials/        # Componentes compartidos (Header, Footer, etc.)
+│   │   ├── reutilizables/   # Componentes reutilizables (Banners de portada, form contact, etc)
 │   │   └── views/           # Vistas principales (Home, About, Legales, etc.)
 │   ├── seo/
 │   │   └── SEO.jsx          # Componente SEO dinámico
