@@ -8,6 +8,9 @@ import Footer from './components/partials/Footer/Footer';
 import Home from './components/views/Home/Home';
 // import About from './components/views/About/About';
 
+
+import NotFound from './components/views/NotFound/NotFound'
+
 function App() {
   return (
     <Router>
@@ -20,6 +23,9 @@ function App() {
           <Route path="/" element={<Home />} />
           {/* <Route path="/about" element={<About />} /> */}
           {/* Agregamos más rutas luego aquí */}
+
+
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
 
